@@ -516,7 +516,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_title_holder.contact{padding-bottom: 93px;}
+.arlo_tm_title_holder.contact{padding-bottom: 93px; margin-top: 40px;}
 .arlo_tm_title_holder:before{
 	position: absolute;
 	content: "";
@@ -2597,3 +2597,22 @@ img.svg{
 	.arlo_tm_portfolio_list > li{width: 100%;padding-left: 0px;}
 	.arlo_tm_counter_wrap{padding: 94px 0px 48px 0px;}
 }	
+.tag:not(body) {
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    color: #4a4a4a;
+    display: inline-flex;
+    font-size: .75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: .75em;
+    padding-right: .75em;
+    white-space: nowrap;
+    background-color: #E3872D;
+    color: #fff;
+}
+.tags .tag {
+    margin-bottom: .5rem;
+}
